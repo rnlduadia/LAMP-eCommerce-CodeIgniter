@@ -1,0 +1,1 @@
+ALTER TABLE  `admin_settings` ADD  `homepage` TEXT NULL;

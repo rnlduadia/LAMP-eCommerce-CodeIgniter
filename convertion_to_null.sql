@@ -1,0 +1,1 @@
+UPDATE inventory_child SET ic_ship_cost = NULL WHERE ic_ship_cost = 0

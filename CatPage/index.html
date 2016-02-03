@@ -1,0 +1,231 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="/bootstrap/css/bootstrap-theme.min.css"> -->
+	<script src="bootstrap/js/jquery.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="jquery.flexslider-min.js">
+
+	</script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="flexslider.css">
+	
+</head>
+<script type="text/javascript">   
+    $(window).load(function(){
+      $('.carousel').flexslider({
+        animation: "slide",
+	    controlNav: false,
+	    animationLoop: false,
+	    slideshow: false,
+	    itemWidth: 182,
+	    itemMargin: 8,
+	    asNavFor: '#slider'        
+      });
+
+     
+    });
+  </script> 
+<body class="body-wrapper">
+<div id="page">
+<div id="header">
+	
+	<div class="logo floatL"><img src="img/logo.png" /></div>
+	<div class="input-group">
+		<div class="search floatL">
+			<div class="search-box">
+			    <div class="input-group">
+			      <div class="input-group-btn">
+			        <button type="button" class="btn btn-default dropdown-toggle btn-action" data-toggle="dropdown">Category <span class="caret catDropIcon"></span></button>
+			        <ul class="dropdown-menu">
+			          <li><a href="#">Action</a></li>
+			          <li><a href="#">Another action</a></li>
+			          <li><a href="#">Something else here</a></li>
+			          <li class="divider"></li>
+			          <li><a href="#">Separated link</a></li>
+			        </ul>
+			      </div><!-- /btn-group -->
+			      <input type="text" class="form-control search-field">
+			      <span class="input-group-addon search-icon"><span class="glyphicon glyphicon-search"></span></span>
+			    </div><!-- /input-group -->		  
+			</div><!-- /.col-lg-6 -->
+		</div>
+		
+		<div class="member-login floatR"><input type="button" class="btn btn-success  btn-member" value="MEMBER LOGIN" /></div>
+	</div>
+</div>
+
+<div id="content">
+	<div class="nav">
+		<div class="nav-bar floatL">
+			<ul class="nav-items">
+				<li>Home goods</li>
+				<li>Subcategory 1</li>
+				<li>Subcategory 2</li>
+				<li>Subcategory 3</li>
+			</ul>
+			<ul class="nav-items">
+				<li>Sport goods</li>
+				<li>Subcategory 1</li>
+				<li>Subcategory 2</li>
+				<li>Subcategory 3</li>
+			</ul>
+				<div class="filter">
+					<div class="filter-item">
+						<label>Find a Product:</label>
+						<div class="clear"></div>
+						<input type="text" class="floatL filterInput filterProduct" />
+						<button class="floatL btn btn-filter"> <span class="glyphicon glyphicon-search"></span></button></button>
+					</div>
+
+					<div class="filter-item">
+						<label>Prices:</label>
+						<div class="clear"></div>
+						<input type="text" class="floatL filterInput filterPrices" />
+						<input type="text" class="floatL filterInput filterPrices" />
+						<button class="floatL btn btn-filter"> <span class="glyphicon glyphicon-search"></span></button></button>
+					</div>
+
+					<div class="filter-item">
+						<label>Supplier:</label>
+						
+						<input type="text" class="floatL filterInput filterProduct" />
+						<button class="floatL btn btn-filter"> <span class="glyphicon glyphicon-search"></span></button></button>
+					</div>
+
+					<div class="filter-item">
+						<label>Brand:</label>
+						
+						<input type="text" class="floatL filterInput filterProduct" />
+						<button class="floatL btn btn-filter"> <span class="glyphicon glyphicon-search"></span></button></button>
+					</div>
+
+					<div class="filter-item">
+						<label>Manufacturer:</label>
+						
+						<input type="text" class="floatL filterInput filterProduct" />
+						<button class="floatL btn btn-filter"> <span class="glyphicon glyphicon-search"></span></button></button>
+					</div>
+				</div>
+			 
+			
+		</div>
+
+		<div class="sliderLg floatR">
+			
+			<div class="category flexslider carousel">	
+				<div>
+					<span class="floatL sub">Subcategory 1</span>
+					<span class="floatR all">See All</span>
+				</div>
+				<div class="clear"></div>
+				<ul class="topBrandsSlider slides">
+					<li class="floatL"><img src="img/03.png" /> </li>
+					<li class="floatL"><img src="img/04.png" /> </li>
+					<li class="floatL"><img src="img/03.png" /> </li>
+					<li class="floatL"><img src="img/04.png" /> </li>
+					<li class="floatL"><img src="img/04.png" /> </li>
+					<li class="floatL"><img src="img/03.png" /> </li>
+					<li class="floatL"><img src="img/04.png" /> </li>
+					<li class="floatL"><img src="img/03.png" /> </li>
+					<li class="floatL"><img src="img/04.png" /> </li>
+				</ul>			
+			</div>	
+		</div>
+
+		<div class="sliderLg floatR">
+			<div class="category flexslider carousel">	
+				<div>
+					<span class="floatL sub">Subcategory 2</span>
+					<span class="floatR all">See All</span>
+				</div>
+				<div class="clear"></div>
+				<ul class="topBrandsSlider slides">
+					<li class="floatL"><img src="img/03.png" /> </li>
+					<li class="floatL"><img src="img/04.png" /> </li>
+					<li class="floatL"><img src="img/03.png" /> </li>
+					<li class="floatL"><img src="img/04.png" /> </li>
+					<li class="floatL"><img src="img/04.png" /> </li>
+					<li class="floatL"><img src="img/03.png" /> </li>
+					<li class="floatL"><img src="img/04.png" /> </li>
+					<li class="floatL"><img src="img/03.png" /> </li>
+					<li class="floatL"><img src="img/04.png" /> </li>
+				</ul>			
+			</div>	
+		</div>
+
+		<div class="sliderLg floatR">
+			<div class="category flexslider carousel">	
+				<div>
+					<span class="floatL sub">Subcategory 3</span>
+					<span class="floatR all">See All</span>
+				</div>
+				<div class="clear"></div>
+				<ul class="topBrandsSlider slides">
+					<li class="floatL"><img src="img/03.png" /> </li>
+					<li class="floatL"><img src="img/04.png" /> </li>
+					<li class="floatL"><img src="img/03.png" /> </li>
+					<li class="floatL"><img src="img/04.png" /> </li>
+					<li class="floatL"><img src="img/04.png" /> </li>
+					<li class="floatL"><img src="img/03.png" /> </li>
+					<li class="floatL"><img src="img/04.png" /> </li>
+					<li class="floatL"><img src="img/03.png" /> </li>
+					<li class="floatL"><img src="img/04.png" /> </li>
+				</ul>			
+			</div>	
+		</div>
+	</div>
+</div>
+
+<div class="clear"></div>
+
+<div id="footer">
+	<ul class="footerInfo floatL">
+		<li>Our mission</li>
+		<li>Connect between B2B businesses. Bring value for both sellers and buyers. To service them and excel their businesses like no one else no matter what size are you are.</li>	
+	</ul>
+
+	<ul class="footerInfo floatL">
+		<li>Menu</li>
+		<li>About Us</li>	
+		<li>Catalog</li>	
+		<li>Feeds</li>	
+		<li>Orders</li>	
+		<li>Accounts</li>	
+		<li>Help</li>	
+	</ul>
+
+	<ul class="footerInfo floatL">
+		<li>Userful Links</li>
+		<li>Privacy Policy</li>	
+		<li>Terms of use</li>	
+		<li>Affiliates</li>			
+	</ul>
+
+	<ul class="footerInfo floatL">
+		<li>Contact Us</li>
+		<li>OceanTailer, Inc
+		24 Garwood Rd.
+		Fairlawn NJ 07410
+		201.921.1630
+		cs@oceantailer.com</li>				
+	</ul>
+
+	<ul class="footerInfo floatL">
+		<li>We Accept:</li>
+		<li><img src="img/cur.png"> </li>
+		<li class="footHeading">Find Us:</li>
+		<li><img src="img/soc.png"> </li>		
+				
+	</ul>
+
+	<div class="clear"></div>
+
+	<div class="copyright">Copyright © 2003-2014 OceanTailer</div>
+</div>
+
+</div>
+</body>
+</html>

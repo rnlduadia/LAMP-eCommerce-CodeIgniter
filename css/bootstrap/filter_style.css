@@ -1,0 +1,41 @@
+.filter {
+	border-top: 1px solid #808080;
+	margin-top: 30px;
+	padding-top: 13px;
+}
+.btn-filter {
+	color:#fff;
+	height: 30px;
+	width: 30px;
+	background: #0e76b9;
+	border-radius:0px;
+	margin-left: 10px;
+}
+.btn-filter span {
+	right: 4px;
+}
+.filterInput {
+	height: 30px;
+}
+.filterProduct {
+	width: 167px;
+}
+.filterPrices {
+	width:78px;
+	margin-right: 5px;
+}
+.filter-item {
+	display: inline-block;
+}
+.category {
+	background: #fafafa;
+	border:1px solid #bfbfbf;
+}
+.carousel .sub {
+	padding-left: 10px;
+	padding-top: 2px;
+}
+.carousel .all {
+	padding-right: 10px;
+	padding-top: 2px;
+}

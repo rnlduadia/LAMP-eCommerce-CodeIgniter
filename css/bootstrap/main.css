@@ -1,0 +1,279 @@
+*{
+	padding:0;
+	margin: 0;
+}
+.body-wrapper {
+	background: #f3f3f3;
+}
+.clear {
+	clear:both;
+}
+.floatL {
+	float:left;
+}
+.floatR {
+	float:right;
+}
+
+#page {
+	/*width: 74%;width: 1000px;*/
+	width: 1000px;
+	margin: 0 auto;
+}
+/* Header */
+#header{}
+.logo {
+	margin-top: 18px;
+	margin-right: 9%;
+}
+.catDropIcon {
+	border: none !important;
+	height: 12px;
+	width: 17px;
+	margin-left: 15px !important;
+	background-image: url('../../avatars/catIcon.png');
+}
+.search{
+	margin-top: 40px;
+	width: 80%;
+	background: #fff;
+	border: 1px solid  #bfbfbf;
+}
+.search input {
+	width:100%;
+	border:0px;
+}
+.search-box{
+	padding: 1px
+}
+.search-icon {
+	background: #bfbfbf;
+	border-radius: 0px  !important;;
+	/*border-left: 1px solid #ccc;*/
+	color: #fff;
+	font-weight: bold; 
+	font-size: 16px; 
+}
+.btn-action {
+	border-radius: 0px !important;
+	background: #bfbfbf;
+	border: 0px;
+}
+.member-login {	
+	margin-top: 43px;
+}
+.btn-member {
+	background: #41a62a;
+	border-radius: 0px !important;
+}
+
+
+/*Content*/
+#content {
+	margin-top: 30px;
+}
+.sliderLg {
+	width: 771px;
+}
+.nav-bar {
+	width:21%;
+}
+.nav-items {
+	list-style: none;
+	color: #4c4c4c;
+}
+.nav-items li {
+	padding-left: 15px;
+}
+.nav-items li:first-child {
+	line-height: 30px;
+	padding-left:0px; 
+	border-top: 1px solid  #ccc;
+	border-bottom: 1px solid  #ccc;
+}
+
+.topBrands {
+	margin-top: 20px;
+}
+.topBrands span {
+	line-height: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.topBrandsHeader {
+	height: 30px;
+	/*line-height: 30px;*/
+	width: 100%;
+	background: #e6e6e6;
+	color:#4c4c4c;
+	border-top: 1px solid  #ccc;
+	border-bottom: 1px solid  #ccc;
+}
+.topBrandsContent {
+	/*padding: 10px*/
+}
+.topBrandsSlider li {
+	margin-left:5px;
+}
+
+/*Footer*/
+
+#footer {
+	margin-top: 50px;
+	font-size: 12px;
+}
+.footerInfo {
+	color:#4c4c4c;
+	width: 17%;
+	margin-right: 3%;
+}
+.footerInfo li {
+	list-style: none;
+	padding-left: 15px;
+	line-height: 17px;
+}
+.footerInfo li:first-child {
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.footHeading {
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 14px;	
+}
+.copyright {
+	text-align: center;
+}
+.nav-items label {
+	line-height: 24px;
+}
+.filter {
+	border-top: 1px solid #808080;
+	margin-top: 30px;
+	padding-top: 13px;
+}
+.btn-filter {
+	color:#fff;
+	height: 30px;
+	width: 30px;
+	background: #0e76b9;
+	border-radius:0px;
+	margin-left: 10px;
+}
+.btn-filter span {
+	right: 4px;
+}
+.filterInput {
+	height: 30px;
+}
+.filterProduct {
+	width: 167px;
+}
+.filterPrices {
+	width:78px;
+	margin-right: 5px;
+}
+.filter-item {
+	display: inline-block;
+	margin-top: 10px;
+}
+.filter-item label{
+	margin-bottom: 4px;
+	font-weight: bold;
+}
+.category {
+	background: #fafafa;
+	border:1px solid #bfbfbf;
+}
+.carousel .sub {
+	padding-left: 10px;
+	padding-top: 2px;
+}
+.carousel .all {
+	padding-right: 10px;
+	padding-top: 2px;
+}
+.detailsInfo {
+	background: #fff;
+	border: 1px solid #ccc;
+	min-height: 530px;
+}
+.productNavigation {
+	padding: 5px;
+	border-bottom: 1px solid #0e76bc;
+	border-top: 1px solid #0e76bc;
+	margin-bottom: 10px
+}
+.productHeader {
+	padding: 7px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 12px;
+}
+.productHeader p {
+	font-size: 16px;
+	color: #4c4c4c;
+}
+#supplier-product-tab div.list-wrap {
+	min-height: 90px  !important;
+	border: 0px !important;
+	
+}
+#supplier-product-tab {
+	border: 1px solid #ccc  !important;
+	background: #fff;
+	margin-top: 7px;
+}
+#supplier-product-tab li a.current .head-tab div.tab-center p {
+	color: #0e76bc !important;
+}
+
+#supplier-product-tab li a .head-tab div.tab-center p {
+	color: #fff !important;
+}
+
+#supplier-product-tab li a.current .head-tab div.tab-center {
+	background:#fafafa  !important;
+	color:#0e76bc !important;
+}
+#supplier-product-tab li a .head-tab div.tab-center {
+	background: #0e76bc !important;
+	color: #fff !important;
+	margin-right: 16px;
+}
+#supplier-product-tab .nav li a {
+	padding: 0px !important;
+}
+#supplier-product-tab li a.current .head-tab div.tab-center {
+	padding-right: 30px !important;
+}
+.PriceHeading span {
+	font-size: 24pt;
+	color: #bf1e2e !important;
+	font-weight: bold;
+}
+.detInfo  {
+	margin-top: 30px;
+}
+.detInfo tr td:first-child {
+	width: 140px;
+}
+.detInfo td {
+	font-size: 12pt;
+	height: 28px;
+}
+.detailsTable {
+	margin-top: 10px;
+}
+.detailsTable .table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+	background-color: #e6e6e6 !important;
+}
+.detailsTable tr td:first-child {
+	font-weight: bold;	
+}
+.detailsTable tr td{
+	text-align: left;
+}
+body {
+	font-family: 'Open Sans', light !important;
+}

@@ -1,0 +1,373 @@
+/* TOP MENU*/
+.top-header-menu{
+	list-style: none;
+	margin-top: 35px;
+}
+
+.top-header-menu li{
+	list-style: none;
+	position: relative;
+	display: block;
+	float: left;
+	padding: 0 0 0 22px;
+	font-size: 13px;
+	height: 30px;
+}
+
+.top-header-menu li p{
+	padding-top: 3px;
+}
+
+.top-header-menu li.user p{
+	font:300 14px/18px 'Open Sans', sans-serif;
+	padding-top: 0;
+}
+
+.top-header-menu li.user p a{
+	width: 120px;
+	height: 30px;
+	display: inline-block;
+	text-align: center;
+	background: #41a62a;
+	text-transform: uppercase;
+	font: 300 13px/30px 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: #fff;
+	margin-left: 26px;
+}
+
+.top-header-menu li.user{
+	background:url(../images/user-top.png) no-repeat left center;
+}
+
+.top-header-menu li.cart{
+	background:url(../images/cart-top.png) no-repeat;
+}
+
+/* MAIN MENU*/
+.main-menu{
+	background: #0e76bc;
+	width: 100%;
+	height: 30px;
+}
+
+.main-menu ul.m-left{
+	position: relative;
+	list-style: none;
+}
+
+.main-menu ul.m-left li{
+	list-style: none;
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.main-menu ul.m-left li.home{display: none;}
+
+.main-menu ul.m-left li a{
+	position: relative;	
+	display: block;
+	color:#fff;
+	font:300 14px/28px 'Open Sans', sans-serif;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration: none;
+	border: solid 1px #0e76bc;
+	background: url('../images/main-menu-link-devider.png') no-repeat right center;
+	border-right: none;
+}
+
+.main-menu ul.m-left li a:hover,
+.main-menu ul.m-left li a.active,
+.main-menu ul.m-right li a:hover{
+	background: #fff;
+	color:#0e76bc;
+}
+
+/*.main-menu ul.m-left li.home a{
+	background: url(../images/home-menu.png) no-repeat center;
+	text-indent: -1000px;
+	overflow: hidden;
+	width: 27px;
+	height: 27px;
+	padding: 0px;
+	margin-right: 20px;
+	padding-top: 16px;
+}*/
+
+.main-menu ul.m-right{
+	position: relative;
+	list-style: none;
+}
+
+
+.main-menu ul.m-right li{
+	list-style: none;
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.main-menu ul.m-right li a{
+	position: relative;	
+	display: block;
+	color:#fff;
+	font:300 14px/28px 'Open Sans', sans-serif;
+	padding-left: 17px;
+	padding-right: 17px;
+	text-decoration: none;
+	border: solid 1px #0e76bc;
+	background: url('../images/main-menu-link-devider.png') no-repeat left center;
+	border-left: none;
+}
+
+.main-menu ul.m-right li a:hover{
+}
+
+.main-menu ul.m-right li a div.eng{
+	/*background:url(../images/en.png) no-repeat; */
+	width: 22px;
+	height: 22px;
+	margin-top: -5px;
+	margin-left: 5px;
+	margin-right: -10px;
+	display: none;
+}
+
+.menu-category{
+	margin-left: 25px;
+	margin-right: 8px;
+	margin-top: 5px;
+}
+
+.menu-category li{
+	position: relative;
+	display: block;
+	list-style: none;
+	
+}
+
+.menu-category li label{
+	position: relative;
+	display: block;
+	height: 23px;
+	color: #fff;
+	line-height: 23px;
+	border-bottom: 1px dotted #fff;
+}
+
+.menu-category li ul{
+	margin-right: 0px;
+	margin-left: 21px;
+}
+
+/*PRODUCT TABS*/
+
+/*#product-tab { background: #eee; padding: 10px; margin: 0 0 15px 0; -moz-box-shadow: 0 0 5px #666; -webkit-box-shadow: 0 0 5px #666; }
+
+#product-tab .nav { overflow: hidden; margin: 0 0 10px 0; }
+#product-tab .nav li { width: 97px; float: left; margin: 0 10px 0 0; }
+#product-tab .nav li.last { margin-right: 0; }
+#product-tab .nav li a { display: block; padding: 5px; background: #959290; color: white; font-size: 10px; text-align: center; border: 0; }
+#product-tab .nav li a:hover { background-color: #111; }
+
+#product-tab ul { list-style: none; }
+#product-tab ul li a { display: block; border-bottom: 1px solid #666; padding: 4px; color: #666; }
+#product-tab ul li a:hover, #example-one ul li a:focus { background: #fe4902; color: white; }
+#product-tab ul li:last-child a { border: none; }
+
+#product-tab li.nav-one a.current, ul.featured li a:hover { background-color: #0575f4; color: white; }
+#product-tab li.nav-two a.current, ul.core li a:hover { background-color: #d30000; color: white; }
+#product-tab li.nav-three a.current, ul.jquerytuts li a:hover { background-color: #8d01b0; color: white; }
+#product-tab li.nav-four a.current, ul.classics li a:hover { background-color: #FE4902; color: white; }*/
+
+#product-tab{
+	margin-bottom: 10px;
+}
+
+#product-tab .nav { overflow: hidden; margin: 0 0 0px 0; }
+#product-tab .nav li { float: left; margin: 0 -15px 0 0;}
+
+#product-tab .nav li.last { margin-right: 0; }
+#product-tab .nav li a {position: relative; display: block; color: #000; border: 0; }
+
+#product-tab .nav li{ z-index: 5 }
+#product-tab .nav li a.current { z-index: 10 }
+
+
+/* INACTIVE TAB*/
+#product-tab li a .head-tab{
+	z-index: 5;
+}
+#product-tab li a .head-tab div.tab-left{
+	background: #41a62a;
+	width: 6px;
+	height: 34px;
+}
+
+#product-tab li a .head-tab div.tab-center{
+	background: #41a62a;
+	min-width: 6px;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 34px;
+	
+}
+
+#product-tab li a .head-tab div.tab-center p{
+	padding-top: 10px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#product-tab li a .head-tab div.tab-right{
+	background: #41a62a;
+	width: 6px;
+	height: 34px;
+}
+
+/* CURRENT TAB*/
+#product-tab li a.current .head-tab{
+	z-index: 10;
+}
+#product-tab li.nav-one a.current .head-tab div.tab-left{ /* FIRST NAV THAT IS ACTIVE TAB*/
+	background: #0e76bc; 
+	width: 6px;
+	height: 34px;
+}
+#product-tab li a.current .head-tab div.tab-left{
+	background: #0e76bc;
+	width: 15px;
+	height: 34px;
+}
+
+#product-tab li a.current .head-tab div.tab-center{
+	background: #0e76bc;
+	min-width: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 34px;
+	
+}
+
+#product-tab li a.current .head-tab div.tab-center p{
+	padding-top: 10px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#product-tab li a.current .head-tab div.tab-right{
+	background: #0e76bc;
+	width: 15px;
+	height: 34px;
+}
+
+#product-tab  div.list-wrap{
+	min-height: 90px;
+	border-radius: 0;
+	border: 1px solid #bfbfbf;
+	background: #fafafa;
+	border-top: 2px solid #bfbfbf; 
+}
+
+.menu-category li a {
+	position: relative;
+	display: block;
+	color: #333333;
+	font: 300 14px/22px 'Open Sans', sans-serif;
+	text-decoration: none;
+}
+
+#supplier-product-tab{
+	margin-bottom: 10px;
+}
+
+#supplier-product-tab .nav { overflow: hidden; margin: 0 0 0px 0; }
+#supplier-product-tab .nav li { float: left; margin: 0 -15px 0 0;}
+
+#supplier-product-tab .nav li.last { margin-right: 0; }
+#supplier-product-tab .nav li a {position: relative; display: block; color: #000; border: 0; }
+
+#supplier-product-tab .nav li{ z-index: 5 }
+#supplier-product-tab .nav li a.current { z-index: 10 }
+
+
+/* INACTIVE TAB*/
+#supplier-product-tab li a .head-tab{
+	z-index: 5;
+}
+#supplier-product-tab li a .head-tab div.tab-left{
+	background: url(../images/left-head-o.png) no-repeat left;
+	width: 6px;
+	height: 34px;
+}
+
+#supplier-product-tab li a .head-tab div.tab-center{
+	background: #41a62a;
+	min-width: 6px;
+	padding-left: 20px;
+	padding-right: 8px;
+	height: 34px;
+	
+}
+
+#supplier-product-tab li a .head-tab div.tab-center p{
+	padding-top: 10px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#supplier-product-tab li a .head-tab div.tab-right{
+	background: url(../images/right-head-o.png) no-repeat left;
+	width: 6px;
+	height: 34px;
+}
+
+/* CURRENT TAB*/
+#supplier-product-tab li a.current .head-tab{
+	z-index: 10;
+}
+#supplier-product-tab li.nav-one a.current .head-tab div.tab-left{ /* FIRST NAV THAT IS ACTIVE TAB*/
+	background: url(../images/left-head-v.png) no-repeat left; 
+	width: 6px;
+	height: 34px;
+}
+#supplier-product-tab li a.current .head-tab div.tab-left{
+	background: url(../images/left-head-v2.png) no-repeat left;
+	width: 15px;
+	height: 34px;
+}
+
+#supplier-product-tab li a.current .head-tab div.tab-center{
+	background: #0e76bc;
+	min-width: 6px;
+	padding-left: 8px;
+	padding-right: 8px;
+	height: 34px;
+	
+}
+
+#supplier-product-tab li a.current .head-tab div.tab-center p{
+	padding-top: 10px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#supplier-product-tab li a.current .head-tab div.tab-right{
+	background: url(../images/right-head-v.png) no-repeat left;
+	width: 15px;
+	height: 34px;
+}
+
+#supplier-product-tab  div.list-wrap{
+	background: #fffcf7;
+	min-height: 90px;
+	border: 1px solid #bfbfbf ;
+	border-top: 2px solid #bfbfbf;
+	border-radius: 0;
+}
